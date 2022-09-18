@@ -29,15 +29,15 @@ The input of our model is as follows:
 
 **Node Representation Learning**
 
-'''
+```python
 python main_embedding_training.py --data_dir ./Data --Model_dir ./Save_model
-'''
+```
 
 **Start-up Success Prediction**
 
-'''
+```
 python startup_prediction.py --data_dir ./Data --Model_dir ./Save_model
-'''
+```
 
 
 1. main_embedding_training.py : File for generating node representations in VC networks by node classification and link prediction tasks
