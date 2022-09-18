@@ -35,7 +35,7 @@ python main_embedding_training.py --data_dir ./Data --Model_dir ./Save_model
 
 **Start-up Success Prediction**
 
-```
+```python
 python startup_prediction.py --data_dir ./Data --Model_dir ./Save_model
 ```
 
