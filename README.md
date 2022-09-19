@@ -2,6 +2,13 @@
 
 This is the source code for paper [xxx](xxx).
 
+## Abstract
+Given start-ups' high-risk and high-reward nature, identifying the ones that will eventually succeed is literally a million-dollar question for practitioners in the \$63-billion venture capital industry and for policy makers worldwide, especially at an early stage such that investment returns can be exponential, and policies can better guide and promote the innovation ecosystem for long-term economic growth.
+
+
+Although various empirical studies and data-driven modeling work have been done, the predictive power of complex networks of stakeholders including venture capital investors, start-ups, and start-ups' managing members has not been thoroughly explored. We design an effective graph representation learning model where node embeddings are incrementally updated by unsupervised graph self-attention and optimized with fine-tuning by supervised link prediction and node classification. Our model uses network structures, temporal dependencies among time periods, and rich node-level attributes for success prediction. Overall, our method achieves superior performance on a real dataset of global venture capital investments, almost twice as human investors. In addition, our model excels at prediction for start-ups in industries such as healthcare and IT. Meanwhile, we shed light on the impacts on start-up success from observable factors including gender, education, and networking, which can be of value for practitioners as well as policy makers when they screen ventures of high growth potential.
+
+
 ## Data
 
 ## Prerequisites
