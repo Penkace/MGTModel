@@ -18,14 +18,13 @@ The code has been successfully tested in the following environment. (For older d
 
 The input of our model is as follows:
 
-* `graph_edges` : The shape is [Time_num x 2 x Edge_num]. Time_num is the number of time steps. Edge_num is the number of the edge in this time step.
-* `edge_date` : edge_date is the time step corresponding to each edge.
-* `edge_type` : edge_type is the edge type corresponding to each edge.
-* `all_nodes` : all_nodes is the number of nodes.
-* `new_companies` : The shape is [(Time_num - 1) x new_add_node_length]. It is the index of the newly added node at each time.
-* `labels` : The shape is [(Time_num - 1 ) x new_add_node_length]. It is the label of the newly added node at each time.
-* `nodetypes` : The set of node types corresponding to all nodes.
-
+* `graph_edges` includes the edges of each time step. The shape is [Time_num x 2 x Edge_num]. Time_num is the number of time steps. Edge_num is the number of the edge in this time step.
+* `edge_date` is the time step corresponding to each edge and the length is equal to the number of all edges.
+* `edge_type` is the edge type corresponding to each edge and the length is equal to the number of all edges.
+* `all_nodes` is the number of nodes.
+* `new_companies` is the index of the newly added node at each time. The shape is [(Time_num - 1) x new_add_node_length].
+* `labels` is the label of the newly added node at each time. The shape is [(Time_num - 1 ) x new_add_node_length].
+* `nodetypes` is the set of node types corresponding to all nodes.
 
 **Node Representation Learning**
 
