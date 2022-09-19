@@ -29,21 +29,23 @@ The input of our model is as follows:
 
 **Node Representation Learning**
 
+`node_representation_learning.py` : File for generating node representations in VC networks by node classification and link prediction tasks
+
 ```python
-python main_embedding_training.py --data_dir ./Data --Model_dir ./Save_model
+python node_representation_learning.py --embedding_dim 64 --n_layers_clf 3 --train_embed --loss_type 'LPNC'
 ```
 
 **Start-up Success Prediction**
 
+`startup_success_prediction.py` : Code that dynamically updates newly added nodes and predicts the success of startups
+
 ```python
-python startup_prediction.py --data_dir ./Data --Model_dir ./Save_model
+python startup_success_prediction.py --dynamic_clf --gpus 'cuda:0'
 ```
 
-
-1. main_embedding_training.py : File for generating node representations in VC networks by node classification and link prediction tasks
-2. main.py : Code that dynamically updates newly added nodes and predicts the success of startups
-3. You need to run the main_node_traininig.py file to generate a representation of the nodes and then run the main.py file to make predictions about the success of the startups.
-4. Model/Convs.py contains **MGTConvs**, which is the layer to dynamically update the nodes. Model/Model.py contains **Predict_model**.
+**File Statement**
+Run the node_representation_learning.py file to generate the representation of the nodes and save the embedding in the file `Save_model`. Then run the startup_success_prediction.py file to make predictions about the success of the startups.
+Model/Convs.py contains **MGTConvs**, which is the layer to dynamically update the nodes. Model/Model.py contains **Predict_model**.
 
 ## Cite
 
