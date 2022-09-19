@@ -1,6 +1,6 @@
 # MGT Model
 
-This is the source code for paper [xxx](xxx) appeared in xxx.
+This is the source code for paper [xxx](xxx).
 
 ## Data
 
@@ -24,7 +24,7 @@ The input of our model is as follows:
 * `all_nodes` : all_nodes is the number of nodes.
 * `new_companies` : The shape is [(Time_num - 1) x new_add_node_length]. It is the index of the newly added node at each time.
 * `labels` : The shape is [(Time_num - 1 ) x new_add_node_length]. It is the label of the newly added node at each time.
-* `nodetypes` : It is the set of node types corresponding to all nodes.
+* `nodetypes` : The set of node types corresponding to all nodes.
 
 
 **Node Representation Learning**
@@ -45,7 +45,7 @@ python startup_success_prediction.py --dynamic_clf --gpus 'cuda:0'
 
 **File Statement**
 Run the node_representation_learning.py file to generate the representation of the nodes and save the embedding in the file `Save_model`. Then run the startup_success_prediction.py file to make predictions about the success of the startups.
-Model/Convs.py contains **MGTConvs**, which is the layer to dynamically update the nodes. Model/Model.py contains **Predict_model**.
+Model/Convs.py contains **MGTConvs**, which is the layer to update the nodes dynamically. **Predict_model** in `Model/Model.py` is the model for startup success prediction.
 
 ## Cite
 
