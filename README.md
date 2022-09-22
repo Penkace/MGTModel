@@ -12,7 +12,7 @@ Although various empirical studies and data-driven modeling work have been done,
 ## Data
 
 ## Prerequisites
-The code has been successfully tested in the following environment. (For older dgl versions, you may need to modify the code)
+The code has been successfully tested in the following environment. (For older PyG versions, you may need to modify the code)
 - Python 3.8.12
 - PyTorch 1.11.0
 - Pytorch Geometric 2.0.4
