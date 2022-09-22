@@ -23,7 +23,7 @@ The code has been successfully tested in the following environment. (For older d
 
 ### Prepare your data
 
-The input of our model is as follows:
+We provide samples of our data in the `./Data` folder. The input of our model is as follows:
 
 * `graph_edges` includes the edges of each time step. The shape is [Time_num x 2 x Edge_num]. Time_num is the number of time steps. Edge_num is the number of the edge in this time step.
 * `edge_date` is the time step corresponding to each edge and the length is equal to the number of all edges.
@@ -32,9 +32,6 @@ The input of our model is as follows:
 * `new_companies` is the index of the newly added node at each time. The shape is [(Time_num - 1) x new_add_node_length].
 * `labels` is the label of the newly added node at each time. The shape is [(Time_num - 1 ) x new_add_node_length].
 * `nodetypes` is the set of node types corresponding to all nodes.
-
-We provide samples of our data in the `./Data` folder.
-
 
 **Node Representation Learning**
 
