@@ -33,6 +33,9 @@ The input of our model is as follows:
 * `labels` is the label of the newly added node at each time. The shape is [(Time_num - 1 ) x new_add_node_length].
 * `nodetypes` is the set of node types corresponding to all nodes.
 
+We provide samples of our data in the `./Data` folder.
+
+
 **Node Representation Learning**
 
 `node_representation_learning.py` : File for generating node representations in VC networks by node classification and link prediction tasks
