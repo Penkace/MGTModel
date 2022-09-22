@@ -1,0 +1,11 @@
+|CompanyID|PersonID|PersonName|FullTitle|IsCurrent|StartDate|EndDate|LastUpdated|PersonIndex|CompanyIndex|PositionType
+1|100003-15|96129-82P|Dan Aziz|Founder, President & Chief Executive Officer|Yes|2011-06-01||04/05/2020|111092|2994|1
+2|100003-15|96129-91P|William Do|Co-Founder|No|2010-10-01|2013-09-01|04/05/2020|41242|2994|7
+3|100004-77|87634-90P|Sean Salloux|Founder, President and Chief Executive Officer|No|2002-04-01|2007-12-01|04/05/2020|74344|91869|1
+5|100006-57|86304-52P|Jumpei Arakawa Ph.D|Founder & Chief Executive Officer|Yes|2012-04-27||04/05/2020|136112|79135|1
+6|100006-93|87516-46P|Kevin Allodi|Co-Founder, Chief Executive Officer & Chairman|Yes|2012-01-01||09/21/2020|59362|140827|1
+7|100006-93|87520-69P|Jeffrey Tetrault|Co-Founder, Chief Revenue Officer and Board Member|No|2013-01-01||04/05/2020|43489|140827|6
+8|100006-93|87523-93P|Jeff Servos|Co-Founder & Vice President, Programming & Partnerships|No|2013-06-01||04/05/2020|73546|140827|7
+10|100020-70|86322-97P|Marcel Bruch|Co-Founder & Chief Executive Officer|No|2013-01-01||04/05/2020|73370|53280|1
+11|100020-70|86323-60P|Johannes Dorn|Co-Founder & Software Engineer|Yes|2014-05-01||04/05/2020|22539|53280|7
+12|100020-70|86323-69P|Andreas Sewe Ph.D|Co-Founder & Chief Technology Officer|No|2014-05-01||04/05/2020|100689|53280|2
